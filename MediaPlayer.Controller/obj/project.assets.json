@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "MediaPlayer.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/MediaPlayer.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MediaPlayer.Domain.dll": {}
+        }
+      },
+      "MediaPlayer.Service/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "MediaPlayer.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MediaPlayer.Service.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MediaPlayer.Service.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MediaPlayer.Domain/1.0.0": {
+      "type": "project",
+      "path": "../MediaPlayer.Domain/MediaPlayer.Domain.csproj",
+      "msbuildProject": "../MediaPlayer.Domain/MediaPlayer.Domain.csproj"
+    },
+    "MediaPlayer.Service/1.0.0": {
+      "type": "project",
+      "path": "../MediaPlayer.Service/MediaPlayer.Service.csproj",
+      "msbuildProject": "../MediaPlayer.Service/MediaPlayer.Service.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "MediaPlayer.Domain >= 1.0.0",
+      "MediaPlayer.Service >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/asangikasandamini/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/asangikasandamini/Documents/Integrify/BackEnd/Media-Player-Application/MediaPlayer.Controller/MediaPlayer.Controller.csproj",
+      "projectName": "MediaPlayer.Controller",
+      "projectPath": "/Users/asangikasandamini/Documents/Integrify/BackEnd/Media-Player-Application/MediaPlayer.Controller/MediaPlayer.Controller.csproj",
+      "packagesPath": "/Users/asangikasandamini/.nuget/packages/",
+      "outputPath": "/Users/asangikasandamini/Documents/Integrify/BackEnd/Media-Player-Application/MediaPlayer.Controller/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/asangikasandamini/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "/Users/asangikasandamini/Documents/Integrify/BackEnd/Media-Player-Application/MediaPlayer.Domain/MediaPlayer.Domain.csproj": {
+              "projectPath": "/Users/asangikasandamini/Documents/Integrify/BackEnd/Media-Player-Application/MediaPlayer.Domain/MediaPlayer.Domain.csproj"
+            },
+            "/Users/asangikasandamini/Documents/Integrify/BackEnd/Media-Player-Application/MediaPlayer.Service/MediaPlayer.Service.csproj": {
+              "projectPath": "/Users/asangikasandamini/Documents/Integrify/BackEnd/Media-Player-Application/MediaPlayer.Service/MediaPlayer.Service.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.302/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MediaPlayer", "MediaPlayer.csproj", "{2ABEBFD5-41E4-4FCF-B0B2-E32ADDC627B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayer.Controller", "MediaPlayer.Controller\MediaPlayer.Controller.csproj", "{C7AC6CA9-21C1-430F-BA3C-DE1533A6B02D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayer.Service", "MediaPlayer.Service\MediaPlayer.Service.csproj", "{38F63D62-0ABB-4FB0-94C3-D9A5D4A7FB77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayer.Infrastructure", "MediaPlayer.Infrastructure\MediaPlayer.Infrastructure.csproj", "{586C1D42-C818-4041-A1DB-1A28F7345F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayer.Domain", "MediaPlayer.Domain\MediaPlayer.Domain.csproj", "{0258561D-D041-4082-8731-FE1073DFB833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaPlayer.Test", "MediaPlayer.Test\MediaPlayer.Test.csproj", "{C6B70E51-AB10-438E-8EDF-14DFB019499D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2ABEBFD5-41E4-4FCF-B0B2-E32ADDC627B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ABEBFD5-41E4-4FCF-B0B2-E32ADDC627B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ABEBFD5-41E4-4FCF-B0B2-E32ADDC627B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ABEBFD5-41E4-4FCF-B0B2-E32ADDC627B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AC6CA9-21C1-430F-BA3C-DE1533A6B02D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AC6CA9-21C1-430F-BA3C-DE1533A6B02D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AC6CA9-21C1-430F-BA3C-DE1533A6B02D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AC6CA9-21C1-430F-BA3C-DE1533A6B02D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38F63D62-0ABB-4FB0-94C3-D9A5D4A7FB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F63D62-0ABB-4FB0-94C3-D9A5D4A7FB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F63D62-0ABB-4FB0-94C3-D9A5D4A7FB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F63D62-0ABB-4FB0-94C3-D9A5D4A7FB77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{586C1D42-C818-4041-A1DB-1A28F7345F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{586C1D42-C818-4041-A1DB-1A28F7345F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{586C1D42-C818-4041-A1DB-1A28F7345F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{586C1D42-C818-4041-A1DB-1A28F7345F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0258561D-D041-4082-8731-FE1073DFB833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0258561D-D041-4082-8731-FE1073DFB833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0258561D-D041-4082-8731-FE1073DFB833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0258561D-D041-4082-8731-FE1073DFB833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6B70E51-AB10-438E-8EDF-14DFB019499D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6B70E51-AB10-438E-8EDF-14DFB019499D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6B70E51-AB10-438E-8EDF-14DFB019499D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6B70E51-AB10-438E-8EDF-14DFB019499D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42F0CB0A-A6A3-4A19-9995-53B2E9143B7A}
+	EndGlobalSection
+EndGlobal
